@@ -1,3 +1,7 @@
+script.Parent.Visible = false
+wait(3)
+script.Parent.Visible = true
+function onclick()
 print("--Craked-- Activated.")
 local lp = game.Players.LocalPlayer
 local char = lp.Character
@@ -263,3 +267,6 @@ game.Players.LocalPlayer.Character.LeftLowerArm.LeftElbowRigAttachment.OriginalP
 game.Players.LocalPlayer.Character.LeftLowerArm.LeftWristRigAttachment.OriginalPosition:Destroy()
 wait(1)
 Humanoid:FindFirstChild("HeadScale"):Destroy()
+end
+
+script.Parent.MouseButton1Click:connect(onclick)
