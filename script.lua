@@ -1,5 +1,6 @@
 local a = 1
 local a = 0.5
+print("--Craked-- Activated.")
 local lp = game.Players.LocalPlayer
 local char = lp.Character
 function bypassTP(cf, t)
