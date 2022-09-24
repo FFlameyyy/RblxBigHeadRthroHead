@@ -254,4 +254,3 @@ game.Players.LocalPlayer.Character.LeftLowerArm.LeftWristRigAttachment.OriginalP
 wait(0.5)
 Humanoid:FindFirstChild("HeadScale"):Destroy()
 wait(1)
-    end
