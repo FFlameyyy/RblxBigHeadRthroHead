@@ -1,3 +1,6 @@
+local a = 0.0000001
+local a = 0.0510503
+
 local Humanoid = game.Players.LocalPlayer.Character.Humanoid;
 game.Players.LocalPlayer.Character.Head.OriginalSize:Destroy()
 game.Players.LocalPlayer.Character.Head.FaceCenterAttachment.OriginalPosition:Destroy()
@@ -59,9 +62,9 @@ game.Players.LocalPlayer.Character.RightLowerArm.RightWristRigAttachment.Origina
 game.Players.LocalPlayer.Character.LeftLowerArm.OriginalSize:Destroy()
 game.Players.LocalPlayer.Character.LeftLowerArm.LeftElbowRigAttachment.OriginalPosition:Destroy()
 game.Players.LocalPlayer.Character.LeftLowerArm.LeftWristRigAttachment.OriginalPosition:Destroy()
-wait(0.5)
+wait(b)
 Humanoid:FindFirstChild("BodyTypeScale"):Destroy()
-wait(1)
+wait(a)
  
 game.Players.LocalPlayer.Character.Head.OriginalSize:Destroy()
 game.Players.LocalPlayer.Character.Head.FaceCenterAttachment.OriginalPosition:Destroy()
@@ -123,9 +126,9 @@ game.Players.LocalPlayer.Character.RightLowerArm.RightWristRigAttachment.Origina
 game.Players.LocalPlayer.Character.LeftLowerArm.OriginalSize:Destroy()
 game.Players.LocalPlayer.Character.LeftLowerArm.LeftElbowRigAttachment.OriginalPosition:Destroy()
 game.Players.LocalPlayer.Character.LeftLowerArm.LeftWristRigAttachment.OriginalPosition:Destroy()
-wait(0.5)
+wait(b)
 Humanoid:FindFirstChild("BodyWidthScale"):Destroy()
-wait(1)
+wait(a)
  
 game.Players.LocalPlayer.Character.Head.OriginalSize:Destroy()
 game.Players.LocalPlayer.Character.Head.FaceCenterAttachment.OriginalPosition:Destroy()
@@ -187,9 +190,9 @@ game.Players.LocalPlayer.Character.RightLowerArm.RightWristRigAttachment.Origina
 game.Players.LocalPlayer.Character.LeftLowerArm.OriginalSize:Destroy()
 game.Players.LocalPlayer.Character.LeftLowerArm.LeftElbowRigAttachment.OriginalPosition:Destroy()
 game.Players.LocalPlayer.Character.LeftLowerArm.LeftWristRigAttachment.OriginalPosition:Destroy()
-wait(0.5)
+wait(b)
 Humanoid:FindFirstChild("BodyDepthScale"):Destroy()
-wait(1)
+wait(a)
  
 game.Players.LocalPlayer.Character.Head.OriginalSize:Destroy()
 game.Players.LocalPlayer.Character.Head.FaceCenterAttachment.OriginalPosition:Destroy()
@@ -251,6 +254,5 @@ game.Players.LocalPlayer.Character.RightLowerArm.RightWristRigAttachment.Origina
 game.Players.LocalPlayer.Character.LeftLowerArm.OriginalSize:Destroy()
 game.Players.LocalPlayer.Character.LeftLowerArm.LeftElbowRigAttachment.OriginalPosition:Destroy()
 game.Players.LocalPlayer.Character.LeftLowerArm.LeftWristRigAttachment.OriginalPosition:Destroy()
-wait(0.5)
+wait(b)
 Humanoid:FindFirstChild("HeadScale"):Destroy()
-wait(1)
