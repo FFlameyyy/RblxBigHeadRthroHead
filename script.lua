@@ -1,19 +1,3 @@
-script.Parent.Visible = false
-wait(3)
-script.Parent.Visible = true
-print("--Craked-- Activated.")
-local lp = game.Players.LocalPlayer
-local char = lp.Character
-function bypassTP(cf, t)
-    local hrp = char.PrimaryPart
-    local ts = game:GetService('TweenService')
-    ts:Create(hrp,
-    TweenInfo.new(t, Enum["EasingStyle"].Linear),
-    {CFrame = cf
-    }):Play()
-end
-bypassTP(CFrame.new(-49.9869003, -497.328613, 7.80543518, 0.374520779, -0.913131952, 0.161009893, -8.55231974e-09, 0.173648268, 0.98480773, -0.927218497, -0.368830949, 0.0650348738),1)
-wait(10)
 local Humanoid = game.Players.LocalPlayer.Character.Humanoid;
 game.Players.LocalPlayer.Character.Head.OriginalSize:Destroy()
 game.Players.LocalPlayer.Character.Head.FaceCenterAttachment.OriginalPosition:Destroy()
